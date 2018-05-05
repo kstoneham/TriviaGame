@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Beatles Trivia!</title>
+</head>
+<body>
+    <div class="container">    
+        <header style="text-align: center" id="main-header">
+            <h1>Fab Four Trivia!!!</h1>
+        </header>
+    </div>
+    
+    <div class="container" id="instructions"><p>Once you click the button, you will have 30 seconds to answer all questions correctly.  Good Luck!</p></div>
+    <div class="container">    
+        <button id="startGame" type="button" class="btn btn-light">Start</button>
+    </div>
+
+    <div class="container" id="timer">
+
+    </div>
+
+            <!-- QUESTIONS -->
+    <div class="container" id="main-container">
+        <div class="row" id="question1" style="text-align: center"> 
+            <p>What was the name of the Beatles' first album?</p>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Sgt. Pepper's Lonely Hearts Club Band</label>
+        </div>            
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2">
+            <label class="form-check-label" for="inlineRadio1">Yellow Submarine</label>
+        </div>        
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3">
+            <label class="form-check-label" for="inlineRadio1">Revolver</label>
+        </div>            
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Please Please Me">
+            <label class="form-check-label" for="inlineRadio1">Please Please Me</label>
+        </div>        
+        <p></p>
+        
+        <div class="row" id="question2"> 
+            <p>'Something' was written by:</p> 
+        </div>
+        <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="George Harrison">
+                <label class="form-check-label" for="inlineRadio1">George Harrison</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2">
+                <label class="form-check-label" for="inlineRadio1">Ringo Starr</label>
+            </div>        
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3">
+                <label class="form-check-label" for="inlineRadio1">Paul McCartney</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4">
+                <label class="form-check-label" for="inlineRadio1">John Lennon</label>
+            </div>        
+            <p></p>
+            
+        <p></p>
+        <div class="row" id="question3"> 
+           <p>What city are the Beatles from?</p> 
+        </div>
+        <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Manchester</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2">
+                <label class="form-check-label" for="inlineRadio1">London</label>
+            </div>        
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Liverpool">
+                <label class="form-check-label" for="inlineRadio1">Liverpool</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4">
+                <label class="form-check-label" for="inlineRadio1">Wales</label>
+            </div>        
+            <p></p>
+        
+        <p></p>
+        <div class="row" id="question4"> 
+            <p>What was John Lennon's nickname?</p>
+        </div>
+        <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">The Quiet One</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="The Wise One">
+                <label class="form-check-label" for="inlineRadio1">The Wise One</label>
+            </div>        
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3">
+                <label class="form-check-label" for="inlineRadio1">The Sad One</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4">
+                <label class="form-check-label" for="inlineRadio1">The Cute One</label>
+            </div>        
+            <p></p>
+
+        <p></p>
+        <div class="row" id="question5"> 
+            <p>Which Beatle plays guitar left-handed?</p>
+        </div>
+        <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">John</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Paul">
+                <label class="form-check-label" for="inlineRadio1">Paul</label>
+            </div>        
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3">
+                <label class="form-check-label" for="inlineRadio1">George</label>
+            </div>            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4">
+                <label class="form-check-label" for="inlineRadio1">Ringo</label>
+            </div>        
+            <p></p>
+
+    </div>
+
+<p id="score"></p>
+
+
+
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

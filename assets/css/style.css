@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/revolver.jpg");
+    background-size: cover;
+}
+h1 {
+    margin-bottom: 50px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.row{
+    text-align: center;
+}
+#instructions {
+    background: white;
+    margin-bottom: 50px;
+}
+#timer {
+    background: white;
+}
+#main-header{
+    background-color: white;
+}
+#main-container {
+    background: white;
+}
