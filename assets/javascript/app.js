@@ -12,7 +12,7 @@ var correct = 0;
 $("#startGame").click(function(){
     $(this).hide();
     $("#main-container").show();
-    setTimeout(endGame, 1000 * 10);
+    setTimeout(endGame, 1000 * 30);
 })
 
 // END GAME- evaluate answers to questions and add to totals
