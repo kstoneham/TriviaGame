@@ -36,8 +36,6 @@
 // }
 // Starting statistics are 0
 var correct = 0;
-var incorrect = 0;
-var unanswered = 0;
 // 
 //----------------------------------------------------
 
@@ -48,9 +46,10 @@ var unanswered = 0;
 //----------------------------------------------------
 // START GAME
 
-// END GAME
+// END GAME- evaluate answers to questions and add to totals
 function endGame() {
-    
+    alert("Time's Up!");
+    $("#score").html("You got " + correct + " questions right!");
 }
 
 //----------------------------------------------------
@@ -62,7 +61,9 @@ function endGame() {
 //----------------------------------------------------
 // Starts the game by clicking the button, giving the player 30 seconds to answer questions
 $("#startGame").click(function(){
-    var timeLeft = setTimeout(endGame, 1000 * 30);
+    $(this).hide();
+    $("#main-container").show();
+    setTimeout(endGame, 1000 * 10);
 })
 
 

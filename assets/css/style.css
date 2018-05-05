@@ -24,4 +24,8 @@ p{
 }
 #main-container {
     background: white;
+    display: none;
+}
+#score {
+    background: white;
 }
